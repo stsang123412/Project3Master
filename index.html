@@ -3,12 +3,15 @@
 <head>
     <title>myIIT Log-in</title>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
     <link rel="stylesheet" href="css/login.css">
 </head>
 <body>
   <div id="mainCont">
-    <form>
-      <img src="media/iit_logo.jpg" alt="iitlogo">
+    <form method="get" action="welcome.html" autocomplete="on">
+      <div id="hawk">
+        <img src="http://iit.plannedgiving.org/clients/195/gift.gif" alt="iitlogo">
+      </div>
       <div class="emandPass">
         <label><input type="email" name="email_field" placeholder="Email Address"></label>
       </div>
@@ -16,11 +19,11 @@
         <label><input type="password" placeholder="Password"></label>
       </div>
       <div id="subButton">
-        <button>SUBMIT</button>
+        <button>Log In</button>
       </div>
     </form>
     <div id="foot">
-      <p>Need Help? | Forgot Password?</p>
+      <p class="emandPass">Need Help? | Forgot Password?</p>
     </div>
   </div>
 </body>
