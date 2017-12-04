@@ -2,16 +2,14 @@
 <html lang="en">
 <head>
     <title>myIIT Log-in</title>
-    <meta charset="UTF-8">
+    <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
-    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/index.css">
 </head>
-<body>
+<body class="loginBody"><!--added a class to body to prevent other pages from changing background-->
   <div id="mainCont">
     <form method="get" action="welcome.html" autocomplete="on">
-      <div id="hawk">
-        <img src="http://iit.plannedgiving.org/clients/195/gift.gif" alt="iitlogo">
-      </div>
+      <img id="hawk" src="http://iit.plannedgiving.org/clients/195/gift.gif" alt="iitlogo"> <!--added id hawk on the img-->
       <div class="emandPass">
         <label><input type="email" name="email_field" placeholder="Email Address"></label>
       </div>
